@@ -42,7 +42,7 @@
                 gap: 20px;
             }
             .dashboard-item {
-                background-color: #046706;
+                background-color: #007B3A;
                 border-radius: 15px;
                 color: #fff;
                 text-align: center;
