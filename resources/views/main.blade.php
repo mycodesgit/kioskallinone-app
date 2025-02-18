@@ -53,12 +53,24 @@
                 justify-content: center;
                 transition: transform 0.3s;
             }
+            .dashboard-item.clicked {
+                animation: haptic-animation 0.3s ease !important;
+            }
+
+            @keyframes haptic-animation {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.1);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
             .dashboard-item a {
                 color: #fff;
                 text-decoration: none;
-            }
-            .dashboard-item:hover {
-                transform: translateY(-10px);
             }
             .dashboard-item i {
                 font-size: 30px;
@@ -127,5 +139,23 @@
         <script src="{{ asset('template/dist/js/adminlte.min.js') }}"></script>
         <!-- Context -->
         <script src="{{ asset('js/basic/contextmenu.js') }}"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+            const buttons = document.querySelectorAll('.dashboard-item');
+        
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Add the 'clicked' class
+                    button.classList.add('clicked');
+        
+                    // Remove the class after the animation duration to allow re-click
+                    setTimeout(() => {
+                        button.classList.remove('clicked');
+                    }, 300); // Duration matches the animation time
+                });
+            });
+        });
+        </script>
     </body>
 </html>
