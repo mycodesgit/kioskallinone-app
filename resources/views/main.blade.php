@@ -116,18 +116,18 @@
                 <!-- <div class="settings-icon">
                     <i class="fas fa-cog"></i>
                 </div> -->
-                <div class="dashboard-item">
-                    <a href="http://localhost/coas-app/public/studkiosk">
+                <a href="http://localhost/coas-app/public/studkiosk">
+                    <div class="dashboard-item">
                         <i class="fas fa-user-graduate fa-2xl"></i>
                         <h3>View Grade</h3>
-                    </a>
-                </div>
-                <div class="dashboard-item">
-                    <a href="http://localhost/campuswifi/public/login">
+                    </div>
+                </a>
+                <a href="http://localhost/campuswifi/public/login">
+                    <div class="dashboard-item">
                         <i class="fas fa-wifi fa-2xl"></i>
                         <h3>Campus Wi-Fi</h3>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
         </div>
         <!-- /.login-box -->
