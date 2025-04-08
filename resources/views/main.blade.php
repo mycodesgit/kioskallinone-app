@@ -116,13 +116,13 @@
                 <!-- <div class="settings-icon">
                     <i class="fas fa-cog"></i>
                 </div> -->
-                <a href="http://localhost/coas-app/public/studkiosk">
+                <a href="https://ciss.cpsu.edu.ph/studkiosk">
                     <div class="dashboard-item">
                         <i class="fas fa-user-graduate fa-2xl"></i>
                         <h3>View Grade</h3>
                     </div>
                 </a>
-                <a href="http://localhost/campuswifi/public/login">
+                <a href="https://system.cpsu.edu.ph/campuswifi/public/login">
                     <div class="dashboard-item">
                         <i class="fas fa-wifi fa-2xl"></i>
                         <h3>Campus Wi-Fi</h3>
