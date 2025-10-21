@@ -116,7 +116,7 @@
                 <!-- <div class="settings-icon">
                     <i class="fas fa-cog"></i>
                 </div> -->
-                <a href="https://system.cpsu.edu.ph/localstudkiosk">
+                <a href="https://system.cpsu.edu.ph/localstudkioskonsite">
                     <div class="dashboard-item">
                         <i class="fas fa-user-graduate fa-2xl"></i>
                         <h3>View Grade</h3>
